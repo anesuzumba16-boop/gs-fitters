@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anesuzumba16-boop.github.io/gs-fitters/sitemap.xml
