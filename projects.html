@@ -1,166 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects Done | GS FITTERS</title>
-    <style>
-        :root {
-            --primary-black: #121212;
-            --accent-silver: #b0b0b0;
-            --card-bg: #1e1e1e;
-            --text-white: #ffffff;
-        }
-
-        body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            background-color: var(--primary-black);
-            color: var(--text-white);
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-
-        /* Fixed Navigation Bar */
-        nav {
-            background: #000;
-            padding: 1rem 0;
-            text-align: center;
-            border-bottom: 1px solid #333;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .nav-links {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        nav a {
-            color: var(--accent-silver);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: 0.3s;
-        }
-
-        nav a:hover, nav a.active {
-            color: #fff;
-        }
-
-        /* Header Section */
-        header {
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        header h1 {
-            font-size: 2.2rem;
-            margin: 0;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-        }
-
-        .line {
-            width: 60px;
-            height: 3px;
-            background: var(--accent-silver);
-            margin: 15px auto;
-        }
-
-        header p {
-            color: var(--accent-silver);
-            font-size: 0.9rem;
-        }
-
-        /* Project Gallery */
-        .gallery {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 20px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-        }
-
-        .project-card {
-            background: var(--card-bg);
-            border-radius: 8px;
-            overflow: hidden;
-            border: 1px solid #2a2a2a;
-            transition: transform 0.3s ease;
-        }
-
-        .project-card:hover {
-            transform: scale(1.02);
-            border-color: var(--accent-silver);
-        }
-
-        .project-card img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            display: block;
-            background-color: #222; /* Placeholder color while loading */
-        }
-
-        .project-label {
-            padding: 15px;
-            text-align: center;
-            font-size: 0.9rem;
-            font-weight: 500;
-            color: var(--accent-silver);
-            background: #181818;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 40px 20px;
-            font-size: 0.8rem;
-            color: #666;
-            border-top: 1px solid #222;
-        }
-
-        /* Responsive Mobile Tweak */
-        @media (max-width: 600px) {
-            header h1 { font-size: 1.8rem; }
-            .project-card img { height: 250px; }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>GS Fitters - Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      margin: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
 
-    <nav>
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="projects.html" class="active">Projects Done</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </nav>
+<header>
+  <h1>GS Fitters - Projects</h1>
+</header>
 
-    <header>
-        <h1>Projects Done</h1>
-        <div class="line"></div>
-        <p>Excellence in Aluminium Systems Across Zimbabwe</p>
-    </header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+</nav>
 
-    <main class="gallery">
-<div class="downloads">
-  <img src="C:\Users\HP\Downloads\e.jpg">
-  <img src="C:\Users\HP\Downloads\d.jpg">
-</div>
-    </main>
+<section class="gallery">
+  <img src="/attachments/HDKSa9iwR5oQxTv6q6tTW.jpeg" alt="Exterior project view">
+  <img src="/attachments/WKerijvdW4mFEePLnKLPp.jpeg" alt="Interior sliding doors project">
+  <img src="/attachments/zb4h85CMHicTotepnyB8M.jpeg" alt="Kitchen security grille project">
+  <img src="/attachments/2SyYJFX5t513CQdgEjHQT.jpeg" alt="Living room security gate project">
+  <img src="/attachments/iP7vEejpAXrMwFLomTbpp.jpeg" alt="Exterior corner project">
+</section>
 
-    <footer>
-        <p>&copy; 2026 GS FITTERS | Excellence in Aluminium Systems</p>
-    </footer>
+<footer>
+  <p>&copy; 2026 GS Fitters. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
